@@ -1,0 +1,22 @@
+{
+  "name": "test-learn-script-import",
+  "version": "1.0.0",
+  "description": "I'm following the W3Schools NodeJS course, therefore my code might look like the examples given during the course",
+  "main": "MyFirst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edunetto/Node-JS.git"
+  },
+  "author": "Eduardo Netto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edunetto/Node-JS/issues"
+  },
+  "homepage": "https://github.com/edunetto/Node-JS#readme",
+  "dependencies": {
+    "csv": "^1.1.1"
+  }
+}
