@@ -2,8 +2,9 @@
   "name": "test-learn-script-import",
   "version": "1.0.0",
   "description": "I'm following the W3Schools NodeJS course, therefore my code might look like the examples given during the course",
-  "main": "MyFirst.js",
+  "main": "MySecond.js",
   "scripts": {
+    "start": "echo \"Inicializando Script\" && node MySecond.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/edunetto/Node-JS#readme",
   "dependencies": {
-    "csv": "^1.1.1"
+    "csv": "^1.1.1",
+    "express": "^4.16.1"
   }
 }
