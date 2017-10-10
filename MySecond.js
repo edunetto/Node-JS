@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express'); // I can use ExpressJS to format texts written with HTML
 var csv = require('csv');
 
 var app = express();
@@ -11,7 +11,6 @@ app.get("/", function(req,res, next){
   });
 
 });
-
 
 app.get("/teste", function(req,res, next){
   res.send('<p>TEste</p>Teste');
